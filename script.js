@@ -9,7 +9,7 @@ function getRandomColor() {
 
 let handler = document.querySelector("body");
 
-let speed  = prompt("Enter Rerfesh Speed in miliseconds - ");
+let speed  = prompt("Enter Refresh Speed in miliseconds - ");
 
 setInterval(() => {
     handler.style.backgroundColor = getRandomColor(); 
